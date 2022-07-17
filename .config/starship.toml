@@ -75,3 +75,10 @@ ssh_only = false
 format = "[$hostname](green) "
 # trim_at = ".companyname.com"
 disabled = false
+
+[memory_usage]
+disabled = false
+threshold = 60
+symbol = ""
+style = "bold dimmed red"
+format = "$symbol [${ram}]($style)"
